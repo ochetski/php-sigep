@@ -8,6 +8,12 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ochetski/php-sigep-fpdf"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev",
@@ -18,7 +24,7 @@
         "php": ">=5.4",
         "ext-soap": "*",
         "ext-mbstring": "*",
-        "stavarengo/php-sigep-fpdf": "dev-master",
+        "stavarengo/php-sigep-fpdf": "fix-empty-parent",
         "vria/nodiacritic": "^0.1.2"
     },
     "require-dev": {
