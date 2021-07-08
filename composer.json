@@ -24,7 +24,7 @@
         "php": ">=5.4",
         "ext-soap": "*",
         "ext-mbstring": "*",
-        "stavarengo/php-sigep-fpdf": "fix-empty-parent",
+        "stavarengo/php-sigep-fpdf": "dev-fix-empty-parent",
         "vria/nodiacritic": "^0.1.2"
     },
     "require-dev": {
