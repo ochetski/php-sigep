@@ -429,7 +429,7 @@ class CartaoDePostagem2016
                         $valorDeclarado = $servicoAdicional->getValorDeclarado();
                     } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_PAC)) {
                         $sSer = $sSer . "64";
-                    } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_MINI)) {
+                    } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_MINI_ENVIOS)) {
                         $sSer = $sSer . "65";
                         $valorDeclarado = $servicoAdicional->getValorDeclarado();
                     } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_REGISTRO)) {

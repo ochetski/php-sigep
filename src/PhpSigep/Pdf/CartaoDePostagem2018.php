@@ -359,10 +359,6 @@ class CartaoDePostagem2018
                 } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_PAC)) {
                     $sSer = $sSer . "64";
                     $_siglaAdicinal[] = "VD";
-                } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_MINI)) {
-                    $sSer = $sSer . "65";
-                    $_siglaAdicinal[] = "VD";
-                    $valorDeclarado = $servicoAdicional->getValorDeclarado();
                 } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_VALOR_DECLARADO_MINI_ENVIOS)) {
                     $sSer = $sSer . "65";
                     $_siglaAdicinal[] = "VD";
