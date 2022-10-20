@@ -348,7 +348,7 @@ class CartaoDePostagem2018
             foreach ($objetoPostal->getServicosAdicionais() as $servicoAdicional) {
                 if ($servicoAdicional->is(ServicoAdicional::SERVICE_AVISO_DE_RECEBIMENTO)) {
                     $sSer = $sSer . "01";
-                    $_siglaAdicinal[] = "AR";
+                    $_siglaAdicinal[] = "e-AR";
                 } else if ($servicoAdicional->is(ServicoAdicional::SERVICE_MAO_PROPRIA)) {
                     $sSer = $sSer . "02";
                     $_siglaAdicinal[] = "MP";

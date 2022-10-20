@@ -307,7 +307,7 @@ class ListaDePostagem
         $pdf->SetX($xCol3);
         $pdf->CellXp($wCol3, 'Peso(g)', 'C');
         $pdf->SetX($xCol4);
-        $pdf->CellXp($wCol4, 'AR', 'C');
+        $pdf->CellXp($wCol4, 'e-AR', 'C');
         $pdf->SetX($xCol5);
         $pdf->CellXp($wCol5, 'MP', 'C');
         $pdf->SetX($xCol6);
